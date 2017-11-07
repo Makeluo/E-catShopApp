@@ -9,7 +9,8 @@ const snacks = ()=> import('../components/snacks/snacks.vue')
 const appliance = ()=> import('../components/appliance/appliance.vue')
 const cosmetic = ()=> import('../components/cosmetic/cosmetic.vue')
 
-
+const loginOrReg = ()=> import('../components/Login_registration/LoginOrreg.vue')
+const map = ()=> import('../components/map/map.vue')
 
 
 Vue.use(VueRouter)
@@ -49,6 +50,14 @@ export default new VueRouter({
       path: '/cosmetic',
       component: cosmetic
     },
+    {
+      path: '/logOrReg',
+      component: loginOrReg
+    },
+    {
+      path: '/map',
+      component: map
+    }
   ]
 })
 

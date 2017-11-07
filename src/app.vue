@@ -15,15 +15,15 @@
           </a>
         </div>
         <div class="xiaoxi">
-          <a href="javascript:;"><img src="../static/img/shouy-img/mydope.png" alt=""></a>
+          <router-link to="/logOrReg"><img src="../static/img/shouy-img/mydope.png" alt=""></router-link>
         </div>
       </div>
       <div class="nav" ref="headerNav">
         <ul>
             <li><router-link to="/shouye" class="on">主页</router-link></li>
-            <li><router-link to="/clothes">服饰城</router-link></li>
+            <li><router-link to="/clothes">精美服饰</router-link></li>
+            <li><router-link to="/map">百度地图</router-link></li>
             <li><router-link to="/dogfood">狗狗主粮</router-link></li>
-            <li><router-link to="/medical">医疗保健</router-link></li>
             <li><router-link to="/snacks">零食玩具</router-link></li>
             <li><router-link to="/appliance">日用外出</router-link></li>
             <li><router-link to="/cosmetic">美容香波</router-link></li>

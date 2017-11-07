@@ -1,3 +1,5 @@
+#实现进程
+  
 # 1. day01
 ## 1). 搭建项目
     vue-cli(vue脚手架)
@@ -49,21 +51,7 @@
 			<transition name='xxx'>
 			.xxx-enter-active, .xxx-leave-active: transition样式
 			.xxx-enter, xxx-leave-to: 隐藏时的样式
-    
-## 2). star组件
-	1. 组件的作用
-		复用
-		简化
-	2. 编写使用组件的流程
-		创建组件文件: xxx.vue
-		定义好props配置: 确定组件接收哪些属性
-		使用组件标签, 传入相应的属性
-		完成组件内部的编码
-			style
-			template
-			script
-	3. 计算属性
-## 3). goods组件
+
 	1. 使用第三库better-scroll实现平滑滚动
 		下载引入
 		API文档
@@ -75,33 +63,6 @@
 	3. 标识某个标签
 		ref: 得到指定的标签对象
 
-# 3. day03
-## 1). goods组件
-	1. 滑动右侧, 左侧同步变化
-		scroll.on('scroll', (event) => {this.scrollY = Math.abs(event.y)})
-		_initTops(){}  ==> this.tops = tops
-		computed => currentIndex() => tops.findIndex() 
-		:class='{currentIndex=currentIndex===index}'
-		scroll.on('scrollend', (event) => {this.scrollY = Math.abs(event.y)})
-	2. 点击左侧, 右侧同步滑动
-		this.scroll.scrollToElement(li, 300)
-		this.scrollY = this.tops[index]
-## 2). cartcontrol组件
-	分析设计组件的props:
-		food: Object
-		updateFoodCount: Function
-	给已经数据绑定的对象添加新的属性
-		this.$set(obj, 'xxx', value)
-## 3). shopcart组件
-	分析设计组件的props:
-	如何向路由组件传递数据: <router-view :seller='seller'>
-	计算属性
-	如何实现单例对象
-		1.创建之前: 先判断是否已存在? 如果没有才去创建
-        2.创建这后: 将创建的对象保存起来
-	scroll对象的创建与刷新
-## 4). food组件
-
 
 
 # 你说几个数组中常用的方法?
@@ -112,27 +73,12 @@
 		find()/findIndex() --> 查找数组元素/元素的下标
 		reduce()--> 累加统计结果
 
-# 4. day04
-## 01). ratingselect组件
-	列表过滤显示
-		ratings.filter()
-		&& 与 || 的使用
-## 02). ratings组件
-## 03). seller组件
-	数据异步显示的问题?
-## 04). 小球动画
-	利用动画的生命周期函数来实现动画
-	小球动画在x和y轴的变化效果不一样--> 需要2个transition-->使用2个嵌套的小球div来分别使用transition
-	每个小球的动画都独立的, 每个小球div都有自己的<transition>
-
 # 5. day05
 ## 01). vue-router
 ## 02). vue相关的插件
 	vue-lazyload
 	vue-scroller
 	mint-ui/element-ui
-## 03). 日期插件
-	moment--->date-fns
 ## 04). 优化项目
 	缓存路由组件
 	路由懒加载

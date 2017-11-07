@@ -556,6 +556,143 @@
   },
 
   "clothes":{
+    "holdClass":[
+      {
+        "className":"马甲",
+        "count":147,
+        "icon": "https://img2.epetbar.com/nowater/2016-12/23/16/93652c479ef5e169a0f32b91aaa2cf54.png",
+         "listImg":[
+           {
+             "id":0,
+             "a_url":" ",
+             "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/b674de345bdaa951a987088e06cc6312.jpg@!200w-c"
+           },
+           {
+             "id":1,
+             "a_url":" ",
+             "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/1aa0d7db36c0470b3d80f0a35257f0d6.jpg@!200w-c"
+           },
+           {
+             "id":2,
+             "a_url":" ",
+             "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/46f93fa9f84cf2250fbec1562147f483.jpg@!200w-c"
+           },
+           {
+             "id":3,
+             "a_url":" ",
+             "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/bdaed9902517fc5f12983fe61cfc2aef.jpg@!200w-c"
+           }
+         ]
+      },
+      {
+        "className":"四角装",
+        "count":302,
+        "icon": "https://img2.epetbar.com/nowater/2017-09/21/18/aa11d3bcf9010d2f55eea9eae48d9d1d.png",
+        "listImg":[
+          {
+            "id":0,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/d018f210ea8352a62f0f4d5eaa5d7333.jpg@!200w-c"
+          },
+          {
+            "id":1,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/eb78b9c654cd2ab75fb58c2ea47d9b3f.jpg@!200w-c"
+          },
+          {
+            "id":2,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/d32dd94000e7edbb72b449433705e6f6.jpg@!200w-c"
+          },
+          {
+            "id":3,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/b0bd0d464842958006446ebc320c82df.jpg@!200w-c"
+          }
+        ]
+      },
+      {
+        "className":"卫衣",
+        "count":102,
+        "icon": "https://img2.epetbar.com/nowater/2016-12/23/16/3d099f840450e5835970e3b977bca146.png",
+        "listImg":[
+          {
+            "id":0,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/77d84bc9df91718f3553af585c1dfa47.jpg@!200w-c"
+          },
+          {
+            "id":1,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/4a0095906c45d9a82ad1eaf9844918be.jpg@!200w-c"
+          },
+          {
+            "id":2,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/fafc886753e1884c3c3f223737260efd.jpg@!200w-c"
+          },
+          {
+            "id":3,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/d5bcfeaa3facb88065d2ab19d0cee8c3.jpg@!200w-c"
+          }
+        ]
+      },
+      {
+        "className":"外套",
+        "count":240,
+        "icon": "https://img2.epetbar.com/nowater/2016-12/23/16/8201fdf321d8131083a0eb107c38466c.png",
+        "listImg":[
+          {
+            "id":0,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/2e1bc4a2e6706a94c601fe0c8cab729a.jpg@!200w-c"
+          },
+          {
+            "id":1,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/5571ee70e24b47c8d437b3e7f698bfe7.jpg@!200w-c"
+          },
+          {
+            "id":2,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/bb7a12d263f071b325951d8491eaa54a.jpg@!200w-c"
+          },
+          {
+            "id":3,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/ca20f4b9895c7ee0de12822e3914b4c9.jpg@!200w-c"
+          }
+        ]
+      },
+      {
+        "className":"依依",
+        "count":101,
+        "icon": "https://img2.epetbar.com/nowater/2016-12/23/16/3d099f840450e5835970e3b977bca146.png",
+        "listImg":[
+          {
+            "id":0,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/77d84bc9df91718f3553af585c1dfa47.jpg@!200w-c"
+          },
+          {
+            "id":1,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/4a0095906c45d9a82ad1eaf9844918be.jpg@!200w-c"
+          },
+          {
+            "id":2,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/fafc886753e1884c3c3f223737260efd.jpg@!200w-c"
+          },
+          {
+            "id":3,
+            "a_url":" ",
+            "imgurl": "https://img2.epetbar.com/nowater/2017-09/21/20/d5bcfeaa3facb88065d2ab19d0cee8c3.jpg@!200w-c"
+          }
+        ]
+      }
+    ]
 
   },
 

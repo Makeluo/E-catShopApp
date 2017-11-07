@@ -4,7 +4,7 @@
       <div class="timeShow">
         <ul>
           <li v-for="timeImg in timeImg">
-            <a href="javascript:;"><img :src="timeImg.imgurl" alt=""></a>
+            <a href="javascript:;"><img v-lazy="timeImg.imgurl" alt=""></a>
           </li>
         </ul>
       </div>
@@ -13,7 +13,7 @@
           <ul>
             <mt-swipe :auto="2000">
               <mt-swipe-item v-for="itemImg in lunboImg">
-                <li><a href="javascript:;"><img :src="itemImg.imgurl" alt=""></a></li>
+                <li><a href="javascript:;"><img v-lazy="itemImg.imgurl" alt=""></a></li>
               </mt-swipe-item>
             </mt-swipe>
           </ul>
@@ -24,12 +24,12 @@
         <div class="CarousBottom">
           <div class="group1">
             <ul>
-              <li v-for="item in group1"><a href="javascript:;"><img :src="item.imgurl" alt=""></a></li>
+              <li v-for="item in group1"><a href="javascript:;"><img v-lazy="item.imgurl" alt=""></a></li>
             </ul>
           </div>
           <div class="group2">
             <ul>
-              <li v-for="item in group2"><a href="javascript:;"><img :src="item.imgurl" alt=""></a></li>
+              <li v-for="item in group2"><a href="javascript:;"><img v-lazy="item.imgurl" alt=""></a></li>
             </ul>
           </div>
         </div>
@@ -51,7 +51,7 @@
           <div class="lists" ref="navWrap">
             <ul>
               <li v-for="list in daygoods">
-                <a href="javascript:;"><img :src="list.imgurl" alt=""></a>
+                <a href="javascript:;"><img v-lazy="list.imgurl" alt=""></a>
                 <p class="now">￥{{list.nowPrice}}</p>
                 <p class="old">￥{{list.oldPrice}}</p>
               </li>
@@ -63,12 +63,12 @@
         <div class="c1-yushou">
           <div class="hdImg"><img src="../../../static/img/shouy-img/yushou.jpg" alt=""></div>
           <div class="listBox" v-for="yushouetm in yushou">
-            <div class="hdbg"><img :src="yushouetm.headerImg" alt="">
+            <div class="hdbg"><img v-lazy="yushouetm.headerImg" alt="">
               <span>{{yushouetm.Name}}</span>
             </div>
             <ul>
               <li v-for="item in yushouetm.datagoods">
-                <a href="javascript:;"><img :src="item.imgurl" alt=""></a>
+                <a href="javascript:;"><img v-lazy="item.imgurl" alt=""></a>
                 <p class="heiti">{{item.explain}}</p>
                 <p><span class="red">￥{{item.nowPrice}}</span><span class="heiti hua">￥{{item.oldPrice}}</span></p>
               </li>
@@ -128,7 +128,7 @@
             <div class="listImg">
               <ul>
                 <li v-for="list in langmuList">
-                  <a href="javascript:;"><img :src="list.imgurl" alt=""></a>
+                  <a href="javascript:;"><img v-lazy="list.imgurl" alt=""></a>
                 </li>
 
               </ul>
@@ -137,7 +137,7 @@
           <div class="ET-mp4">
             <div class="hdbgImg"></div>
             <div class="movie">
-              <video :src="mp4.src" width="100%" height="100%" :poster="mp4.poster" controls></video>
+              <video v-lazy="mp4.src" width="100%" height="100%" :poster="mp4.poster" controls></video>
             </div>
             <div class="btbj"></div>
           </div>
