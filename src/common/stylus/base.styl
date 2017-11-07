@@ -1,0 +1,14 @@
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+  .border-1px
+    &::before
+      transform scaleY(0.5)
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)
+  .border-1px
+    &::before
+      transform scaleY(0.33333333)
+
+.mint-swipe-indicator.is-active
+  opacity 0.8
+  width 20px
+  height 6px

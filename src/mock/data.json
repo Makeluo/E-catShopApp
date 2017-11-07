@@ -1,0 +1,574 @@
+{
+  "shouye":{
+
+    "header":{
+      "timeLists":[
+        {
+          "id":1,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/data1.png"
+        },
+        {
+          "id":2,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/data2.png"
+        },
+        {
+          "id":3,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/data3.png"
+        }
+      ],
+      "lunboImgs":[
+        {
+          "id":1,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/lunbo1.jpg"
+        },
+        {
+          "id":2,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/lunbo2.jpg"
+        },
+        {
+          "id":3,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/lunbo3.jpg"
+        },
+        {
+          "id":4,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/lunbo4.jpg"
+        }
+      ],
+      "CarousBottom":{
+        "groupOne":[
+          {
+            "id":1,
+            "a_url":"",
+            "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/CarMi1.jpg"
+          },
+          {
+            "id":2,
+            "a_url":"",
+            "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/CarMi2.jpg"
+          },
+          {
+            "id":3,
+            "a_url":"",
+            "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/CarMi3.jpg"
+          },
+          {
+            "id":4,
+            "a_url":"",
+            "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/CarMi4.jpg"
+          }
+        ],
+        "groupTwo":[
+          {
+            "id":1,
+            "a_url":"",
+            "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/CarMi5.jpg"
+          },
+          {
+            "id":1,
+            "a_url":"",
+            "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/CarMi6.jpg"
+          },
+          {
+            "id":1,
+            "a_url":"",
+            "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/CarMi7.jpg"
+          },
+          {
+            "id":1,
+            "a_url":"",
+            "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/CarMi8.jpg"
+          }
+        ]
+      },
+      "daygoods": [
+        {
+          "id":1,
+          "a_url":"",
+          "nowPrice": "4.50",
+          "oldPrice": "40.50",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/sp1 (1).jpg"
+        },
+        {
+          "id":2,
+          "a_url":"",
+          "nowPrice": "4.50",
+          "oldPrice": "40.50",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/sp1 (2).jpg"
+        },
+        {
+          "id":3,
+          "a_url":"",
+          "nowPrice": "4.50",
+          "oldPrice": "40.50",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/sp1 (3).jpg"
+        },
+        {
+          "id":4,
+          "a_url":"",
+          "nowPrice": "4.50",
+          "oldPrice": "40.50",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/sp1 (4).jpg"
+        },
+        {
+          "id":5,
+          "a_url":"",
+          "nowPrice": "4.50",
+          "oldPrice": "40.50",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/sp1 (5).jpg"
+        },
+        {
+          "id":6,
+          "a_url":"",
+          "nowPrice": "4.50",
+          "oldPrice": "40.50",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/sp1 (6).jpg"
+        },
+        {
+          "id":7,
+          "a_url":"",
+          "nowPrice": "4.50",
+          "oldPrice": "40.50",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/sp1 (7).jpg"
+        },
+        {
+          "id":8,
+          "a_url":"",
+          "nowPrice": "4.50",
+          "oldPrice": "40.50",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/sp1 (8).jpg"
+        },
+        {
+          "id":9,
+          "a_url":"",
+          "nowPrice": "4.50",
+          "oldPrice": "40.50",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/shouye/sp1 (9).jpg"
+        }
+
+      ]
+    },
+    "content":{
+      "Yushoulists":[
+        {
+          "id":0,
+          "Name": "进口直邮",
+          "headerImg":"http://localhost:8088/static/img/shouy-img/jkzy/jkzy-header.png",
+          "datagoods": [
+            {
+              "id":0,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/jkzy/jkzy-1.png"
+            },
+            {
+              "id":1,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/jkzy/jkzy-2.png"
+            },
+            {
+              "id":2,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/jkzy/jkzy-3.png"
+            },
+            {
+              "id":3,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/jkzy/jkzy-4.png"
+            },
+            {
+              "id":4,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/jkzy/jkzy-5.png"
+            },
+            {
+              "id":5,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/jkzy/jkzy-6.png"
+            },
+            {
+              "id":6,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/jkzy/jkzy-7.png"
+            },
+            {
+              "id":7,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/jkzy/jkzy-8.png"
+            }
+        ]
+      },
+        {
+          "id":1,
+          "Name": "主粮",
+          "headerImg":"http://localhost:8088/static/img/shouy-img/zul/zul-header.png",
+          "datagoods": [
+            {
+              "id":0,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/zul/zul-1.png"
+            },
+            {
+              "id":1,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/zul/zul-2.png"
+            },
+            {
+              "id":2,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/zul/zul-3.png"
+            },
+            {
+              "id":3,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/zul/zul-4.png"
+            },
+            {
+              "id":4,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/zul/zul-5.png"
+            },
+            {
+              "id":5,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/zul/zul-6.png"
+            },
+            {
+              "id":6,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/zul/zul-7.png"
+            },
+            {
+              "id":7,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/zul/zul-8.png"
+            }
+          ]
+        },
+        {
+          "id":2,
+          "Name": "零食",
+          "headerImg":"http://localhost:8088/static/img/shouy-img/ls/food_tit.png",
+          "datagoods": [
+            {
+              "id":0,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/ls/food_1.png"
+            },
+            {
+              "id":1,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/ls/food_2.png"
+            },
+            {
+              "id":2,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/ls/food_3.png"
+            },
+            {
+              "id":3,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/ls/food_4.png"
+            },
+            {
+              "id":4,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/ls/food_5.png"
+            },
+            {
+              "id":5,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/ls/food_6.png"
+            },
+            {
+              "id":6,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/ls/food_7.png"
+            },
+            {
+              "id":7,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/ls/food_8.png"
+            }
+          ]
+        },
+        {
+          "id":3,
+          "Name": "医疗保健",
+          "headerImg":"http://localhost:8088/static/img/shouy-img/yiliao/massage_tit.png",
+          "datagoods": [
+            {
+              "id":0,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/yiliao/massage_1.png"
+            },
+            {
+              "id":1,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/yiliao/massage_2.png"
+            },
+            {
+              "id":2,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/yiliao/massage_3.png"
+            },
+            {
+              "id":3,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/yiliao/massage_4.png"
+            },
+            {
+              "id":4,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/yiliao/massage_5.png"
+            },
+            {
+              "id":5,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/yiliao/massage_6.png"
+            },
+            {
+              "id":6,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/yiliao/massage_7.png"
+            },
+            {
+              "id":7,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/yiliao/massage_8.png"
+            }
+          ]
+        },
+        {
+          "id":4,
+          "Name": "生活馆",
+          "headerImg":"http://localhost:8088/static/img/shouy-img/life/life_tit.png",
+          "datagoods": [
+            {
+              "id":0,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/life/life_1.png"
+            },
+            {
+              "id":1,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/life/life_2.png"
+            },
+            {
+              "id":2,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/life/life_3.png"
+            },
+            {
+              "id":3,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/life/life_4.png"
+            },
+            {
+              "id":4,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/life/life_5.png"
+            },
+            {
+              "id":5,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/life/life_6.png"
+            },
+            {
+              "id":6,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/life/life_7.png"
+            },
+            {
+              "id":7,
+              "a_url":"",
+              "nowPrice": "528",
+              "oldPrice": "628",
+              "explain": "天然绿色产品",
+              "imgurl":"http://localhost:8088/static/img/shouy-img/life/life_8.png"
+            }
+          ]
+        }
+     ],
+      "Speciallm": [
+        {
+          "id":1,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/Ectuan/langmu1 (1).jpg"
+        },
+        {
+          "id":2,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/Ectuan/langmu1 (2).jpg"
+        },
+        {
+          "id":3,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/Ectuan/langmu1 (3).jpg"
+        },
+        {
+          "id":4,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/Ectuan/langmu1 (4).jpg"
+        },
+        {
+          "id":5,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/Ectuan/langmu1 (5).jpg"
+        },
+        {
+          "id":6,
+          "a_url":"",
+          "imgurl":"http://localhost:8088/static/img/shouy-img/Ectuan/langmu1 (6).jpg"
+        }
+      ],
+      "movie":{
+        "type": 0,
+        "name": "动物世界",
+        "poster": "http://localhost:8088/static/img/shouy-img/Ectuan/poster.jpg",
+        "src": "http://localhost:8088/static/video/OUTPUT.mp4"
+      },
+      "daPai":{}
+    }
+
+  },
+
+  "clothes":{
+
+  },
+
+  "catfood":{
+
+  },
+
+  "hosiptal":{
+
+  },
+
+  "meiron":{
+
+  }
+
+}
