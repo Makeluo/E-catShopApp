@@ -4,6 +4,8 @@ import router from './router'
 import VueScroller from 'vue-scroller'
 import VueLazyload from 'vue-lazyload'
 import {Swipe,SwipeItem} from 'mint-ui'
+import iview from 'iview'
+import 'iview/dist/styles/iview.css'
 
 
 //文件生效
@@ -22,6 +24,8 @@ Vue.component(SwipeItem.name, SwipeItem);
 Vue.use(VueLazyload,{
   loading
 })
+//声明使用iview tabs
+Vue.use(iview)
 
 
 new Vue({

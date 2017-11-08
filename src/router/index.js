@@ -11,7 +11,8 @@ const cosmetic = ()=> import('../components/cosmetic/cosmetic.vue')
 
 const loginOrReg = ()=> import('../components/Login_registration/LoginOrreg.vue')
 const map = ()=> import('../components/map/map.vue')
-
+const Jump = ()=> import('../components/Jump/jump.vue')
+const city = ()=> import('../components/city/city.vue')
 
 Vue.use(VueRouter)
 
@@ -57,7 +58,16 @@ export default new VueRouter({
     {
       path: '/map',
       component: map
+    },
+    {
+      path: '/Jump',
+      component: Jump
+    },
+    {
+      path: '/city',
+      component: city
     }
+
   ]
 })
 

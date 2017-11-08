@@ -6,7 +6,7 @@
         <div class="checkedText">
           <span class="catdog">狗狗站</span>
           <span class="shu">|</span>
-          <span class="place">深圳</span>
+          <span class="place"><router-link to="/city">深圳</router-link></span>
         </div>
         <div class="search">
           <a href="javascript:;">
@@ -14,8 +14,8 @@
             <span class="search-eico"><img src="../static/img/shouy-img/search.png" alt=""></span>
           </a>
         </div>
-        <div class="xiaoxi">
-          <router-link to="/logOrReg"><img src="../static/img/shouy-img/mydope.png" alt=""></router-link>
+        <div class="xiaoxi" @click="redirect">
+          <router-link to="/Jump"><img src="../static/img/shouy-img/mydope.png" alt=""></router-link>
         </div>
       </div>
       <div class="nav" ref="headerNav">
@@ -74,6 +74,12 @@
             aLists[this.index].className = 'move'+this.index
           })
         }
+      },
+      redirect(){
+        setTimeout(()=>{
+          window.location.replace("/#/logOrReg");
+          //window.location="/#/logOrReg"
+        },2000)
       }
     }
   }
@@ -97,19 +103,16 @@
     width 100%
     .header
       width 100%
+      position relative
       clearfix()
       .headBox
         display flex
-        position relative
         float left
         width 100%
-        height (40/$rem)
+        height (45/$rem)
         background white
-        color #898989;
+        color #898989
         padding (10/$rem)
-        margin-top (-10/$rem)
-        div
-          line-height (50/$rem)
         .checkedText
           flex-grow: 3;
           width (60/$rem)
@@ -120,6 +123,8 @@
           .place
             position relative
             font-size (14/$rem)
+            a
+              color #898989
             &::after
               position: absolute;
               width: 0
@@ -135,25 +140,27 @@
           flex-grow: 6;
           overflow hidden
           width (60/$rem)
+          a
+            display block
           input
             width 100%
+            height (30/$rem)
             border-radius: (4/$rem);
             background  #e9e9e9
             &::-webkit-input-placeholder
               position relative
               left (5/$rem)
-              font-size (13.6/$rem)
+
           .search-eico
             position absolute
-            top (3/$rem)
+            top (8/$rem)
             right 0
             img
               width (15/$rem)
               height  (15/$rem)
         .xiaoxi
-          flex-grow: 1;
+          flex-grow: 0.5;
           margin-left (5/$rem)
-          margin-top (8/$rem)
           img
             width (28/$rem)
             height (28/$rem)

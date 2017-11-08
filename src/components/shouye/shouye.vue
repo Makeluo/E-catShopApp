@@ -13,7 +13,7 @@
           <ul>
             <mt-swipe :auto="2000">
               <mt-swipe-item v-for="itemImg in lunboImg">
-                <li><a href="javascript:;"><img v-lazy="itemImg.imgurl" alt=""></a></li>
+                <li><a href="javascript:;"><img :src="itemImg.imgurl" alt=""></a></li>
               </mt-swipe-item>
             </mt-swipe>
           </ul>
