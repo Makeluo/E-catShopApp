@@ -1,4 +1,4 @@
-#实现功能
+# 实现功能
   首页-->界面结构化分析,使用ps切图,自定义mock数据,使用vue搭建完组件界面
         better-scroll实现横向滑屏、vue-scroller实现竖向滑屏
         mint-ui跑马灯 实现轮播
