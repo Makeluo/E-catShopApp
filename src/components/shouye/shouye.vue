@@ -137,7 +137,7 @@
           <div class="ET-mp4">
             <div class="hdbgImg"></div>
             <div class="movie">
-              <video v-lazy="mp4.src" width="100%" height="100%" :poster="mp4.poster" controls></video>
+              <video :src="mp4.src" width="100%" height="100%" :poster="mp4.poster" controls></video>
             </div>
             <div class="btbj"></div>
           </div>

@@ -3,6 +3,8 @@ import app from './app.vue'
 import router from './router'
 import VueScroller from 'vue-scroller'
 import VueLazyload from 'vue-lazyload'
+import VueResource from 'vue-resource'
+
 import {Swipe,SwipeItem} from 'mint-ui'
 import iview from 'iview'
 import 'iview/dist/styles/iview.css'
@@ -13,7 +15,9 @@ import './common/stylus/index.styl'
 import './mock/mockServer'
 import loading from './img/loading.gif'
 
+Vue.prototype.HOST = '/api'
 
+Vue.use(VueResource)
 //使用vue-scroll 得到scroller标签
 Vue.use(VueScroller)
 

@@ -7,7 +7,7 @@ const dogfood = ()=> import('../components/dogfood/dogfood.vue')
 const medical = ()=> import('../components/medical/medical.vue')
 const snacks = ()=> import('../components/snacks/snacks.vue')
 const appliance = ()=> import('../components/appliance/appliance.vue')
-const cosmetic = ()=> import('../components/cosmetic/cosmetic.vue')
+const movie = ()=> import('../components/movie/movie.vue')
 
 const loginOrReg = ()=> import('../components/Login_registration/LoginOrreg.vue')
 const map = ()=> import('../components/map/map.vue')
@@ -48,8 +48,8 @@ export default new VueRouter({
       component: appliance
     },
     {
-      path: '/cosmetic',
-      component: cosmetic
+      path: '/movie',
+      component: movie
     },
     {
       path: '/logOrReg',

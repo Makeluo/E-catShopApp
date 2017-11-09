@@ -23,10 +23,11 @@
             <li><router-link to="/shouye" class="on">主页</router-link></li>
             <li><router-link to="/clothes">精美服饰</router-link></li>
             <li><router-link to="/map">百度地图</router-link></li>
-            <li><router-link to="/dogfood">狗狗主粮</router-link></li>
+            <li><router-link to="/movie">最新电影</router-link></li>
             <li><router-link to="/snacks">零食玩具</router-link></li>
+            <li><router-link to="/dogfood">狗狗主粮</router-link></li>
             <li><router-link to="/appliance">日用外出</router-link></li>
-            <li><router-link to="/cosmetic">美容香波</router-link></li>
+
         </ul>
       </div>
     </header>
@@ -231,7 +232,7 @@
               background-position: (-127/$rem) (-122/$rem)
 
   .dogEye
-    background url("../static/img/shouy-img/godog.png")
+    background url("../static/img/shouy-img/gocat.png")
     width: (41/$rem)
     height: (46/$rem)
     background-size: 80px auto;
